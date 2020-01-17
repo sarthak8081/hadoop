@@ -212,3 +212,16 @@ job tracker UI:   http://machine_host_name:50030
 substitute ‘machine host name’ with the public IP of your node e.g:  http://localhost:50070  
 Now you have successfully installed and configured Hadoop on a single node.
 
+
+
+
+
+
+
+
+export HADOOP_HOME="/usr/local/hadoop"
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+HADOOP_YARN_HOME=$HADOOP_HOME
