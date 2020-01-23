@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/24303950/hadoop-2-x-how-to-configure-secondary-namenode
